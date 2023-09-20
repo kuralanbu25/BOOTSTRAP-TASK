@@ -1,0 +1,30 @@
+body{
+    overflow-x: hidden;
+}
+.color{
+    background-color: #1abc9c;
+}
+.color1{
+    background-color: #2a3a49;
+}
+.navbar-toggler{
+    margin-left: 410px;
+   }
+@media screen and (max-width:376px){
+   .navbar-toggler{
+    margin-left: 49px;
+   }
+}
+@media screen and (max-width:426px) and (min-width:376px){
+    .navbar-toggler{
+     margin-left:79px ;
+    }
+ }
+ @media screen and (max-width:325px){
+    .menu{
+        font-size: 10px;
+    }
+    .navbar-toggler{
+        margin-left: 2px;
+       }
+ }
